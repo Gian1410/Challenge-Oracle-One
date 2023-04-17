@@ -68,9 +68,9 @@ body{
 
 }
 
-/* .copiar{
+.copiar{
     display: none;
-} */
+}
 
 .encriptar{
     cursor: pointer;

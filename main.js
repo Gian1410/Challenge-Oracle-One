@@ -17,9 +17,10 @@ function ecriptar() {
     .replaceAll(/i/igm,'imes')
     .replaceAll(/a/igm,'ai')
     .replaceAll(/u/igm,'ufat');
-
     document.getElementById('imgDer').style.display = "none";
     document.getElementById('texto').style.display = "none";
+    document.getElementById('copiar').style.display = 'block';
+
 
     cargar(txtCifrado);
 }
