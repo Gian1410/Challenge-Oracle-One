@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="logo card">
+            <img src="img/Vector.png" alt="">
+        </div>
+        
+        <div class="text card">
+
+            <div class="parrafo">
+                <textarea name="texto" class="textarea1" id="inputTexto" cols="50" rows="20" placeholder="Ingres tu texto aqui"></textarea>
+            </div>
+
+            <div class="botones">
+                
+                <button class="botones encriptar" type="submit">Encriptar</button>
+                <button class="botones desencriptar" type="submit">Desencriptar</button>
+            </div>
+        </div>
+
+        <div class="encript card">
+            <div class="result">
+                <img src="img/Muñeco.png" id="imgDer" alt="muñeco">
+                <div class="letras">
+                    <h2 id="texto">Ningún mensaje fue encontrado</h2>
+                    <textarea class="textarea2" id="texto2" cols="35" rows="10" placeholder="Ingresa el texto que desees encriptar o desencriptar"></textarea>
+                </div>
+                <button onclick="copiar()" class="copiar" id="copiar" type="button">Copiar</button>
+            </div>
+        </div>
+    </div>
+
+<script src="main.js"></script>
+</body>
+</html>

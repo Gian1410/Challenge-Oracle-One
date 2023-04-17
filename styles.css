@@ -1,0 +1,151 @@
+body{
+    background-color: #f3f5fc;
+}
+.contenedor{
+    display: flex;
+    position: relative;
+    
+}
+
+.card{
+    /* width: 100vh; */
+    /* margin-top: 10px; */
+    margin: 30px 20px 0px 120px;
+}
+
+/* .logo{
+
+} */
+
+.encript{
+    width: 400px;
+    height: 650px;
+    /* left: 1000px; */
+    background-color: white;
+    border-radius: 32px;
+    
+}
+
+.result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result img{
+    margin-top: 120px;
+    width: 236px;
+}
+
+.letras{
+    margin: 10px;
+    font-size: 14px;
+}
+
+.text{
+    color: blue;
+    font-size: 15px;
+}
+
+.textarea1{
+    font-size: 25px;
+    border: none;
+    background: none;
+    resize: none;
+    /* border-radius: none; */
+    outline: none;
+}
+
+.textarea2{
+    text-align: center;
+    border: none;
+    outline: none;
+    resize: none;
+
+}
+
+/* .copiar{
+    display: none;
+} */
+
+.encriptar{
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #0A3871;
+    color: white;
+}
+
+.desencriptar{
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: #0A3871;
+    background-color: #f3f5fc;
+    color: #0A3871;
+}
+
+.copiar{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: #0A3871;
+    background-color: #f3f5fc;
+    color: #0A3871;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* @media (min-width:480px) {
+        
+    }
+
+
+
+@media (min-width:768px) {
+        
+    } */
+
+
+
+@media (max-width:992px) {
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .textarea1{
+        height: 280px;
+        font-size: 15px;
+    }
+
+    .result{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .result img{
+        display: none;
+    }
+
+    .encript{
+        width: 400px;
+        height: 200px;
+        /* left: 1000px; */
+        background-color: white;
+        border-radius: 32px;
+        
+    }
+
+    .encript textarea{
+        height: 100px;
+    }
+}
+
+
