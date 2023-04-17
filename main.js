@@ -32,7 +32,7 @@ function desencriptar() {
     .replaceAll(/ai/igm,'a')
     .replaceAll(/ufat/igm,'u');
     cargar(txtDifrado)
-    
+
 }
 
 
